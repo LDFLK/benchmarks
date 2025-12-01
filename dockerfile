@@ -16,11 +16,10 @@ RUN chown -R choreouser:choreo /app
 
 USER 10014
 
-EXPOSE 8081
+EXPOSE 8089
 
 CMD ["sh", "-c", "locust -f ${LOCUST_FILE:-locust.py} \
   --host=${LOCUST_HOST} \
   --users=${LOCUST_USERS:-50} \
   --spawn-rate=${LOCUST_SPAWN_RATE:-5} \
-  --run-time=${LOCUST_RUN_TIME:-5m} \
-  --headless"]
+  --run-time=${LOCUST_RUN_TIME:-5m}" ]
