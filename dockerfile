@@ -16,6 +16,8 @@ RUN chown -R choreouser:choreo /app
 
 USER 10014
 
+EXPOSE 8081
+
 CMD ["sh", "-c", "locust -f ${LOCUST_FILE:-locust.py} \
   --host=${LOCUST_HOST} \
   --users=${LOCUST_USERS:-50} \
