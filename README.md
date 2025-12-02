@@ -41,9 +41,7 @@ pip install -r requirements.txt
 ```
 
 #### 6️⃣ Access the web interface on
-```bash
 http://localhost:8089
-````
 
 ## 🚀 Additional Command-line Parameters
 
