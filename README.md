@@ -65,7 +65,7 @@ http://localhost:8089
 | `--spawn-rate` , `-r` | `float` | **Optional**. Rate to spawn users (users per second) |
 | `--run-time` , `-t` | `time string` | **Optional**. Stop after the specified amount of time, e.g. (300s, 20m, 3h, 1h30m, etc.). Only used together with --headless or --autostart.|
 
-#### 2️⃣ Execusion Behaviour
+#### 2️⃣ Execution Behaviour
 | Parameter | Description                |
 | :-------- |  :------------------------- |
 | `--headless` |  **Optional**. Disable the web interface, and start the test immediately. |
