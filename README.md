@@ -45,7 +45,7 @@ pip install -r requirements.txt
 http://localhost:8089
 ````
 
-## 🚀 Addtional Command-line Parameters
+## 🚀 Additional Command-line Parameters
 
 ###### These parameters are optional when starting Locust from the command line. However, if you do not provide them via CLI, Locust will require you to enter them in the web UI before the test can start, since they are necessary to run the load test.
 
