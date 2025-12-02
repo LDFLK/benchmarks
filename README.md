@@ -23,7 +23,7 @@ Benchmark reports for all services
   python -m venv .venv   
   
   #activate environment
-  .venv/Scripts/Activate  #windows powershell
+  .venv\Scripts\Activate.ps1  # Windows PowerShell
   source .venv/bin/activate   #linux
 ```
 
